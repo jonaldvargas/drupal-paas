@@ -9,7 +9,7 @@ services:
      environment:
        VARNISH_BACKEND_HOST: drupalwww
    drupalwww:
-     image: digrup/drupal-9:latest
+     image: bms8197/drupal:drupal-9.4.1-php8.1-fpm-bullseye
      restart: always
      volumes:
        wwwroot: /home/site/wwwroot
