@@ -9,7 +9,7 @@ services:
      environment:
        VARNISH_BACKEND_HOST: drupalwww
    drupalwww:
-     image: infaniondockers/drupal9:latest
+     image: compuccino/drupal-9.4:latest
      restart: always
      volumes:
        wwwroot: /home/site/wwwroot
