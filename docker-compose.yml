@@ -9,7 +9,7 @@ services:
      environment:
        VARNISH_BACKEND_HOST: drupalwww
    drupalwww:
-     image: kvaes/drupal4azure:latest
+     image: drupal:latest
      restart: always
      volumes:
        wwwroot: /home/site/wwwroot
