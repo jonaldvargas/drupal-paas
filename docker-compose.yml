@@ -9,7 +9,7 @@ services:
      environment:
        VARNISH_BACKEND_HOST: drupalwww
    drupalwww:
-     image: drupal:9.5.2-php8.1-fpm-buster
+     image: drupal:9.5.2-php8.1-apache-buster
      restart: always
      volumes:
        wwwroot: /home/site/wwwroot
